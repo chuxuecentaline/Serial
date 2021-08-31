@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity() {
         serialPortControl.connectBody()
     }
 
-
     fun disconnect(view: View) {
 
         serialPortControl.disconnect()
